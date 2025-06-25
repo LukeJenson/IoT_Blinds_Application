@@ -27,7 +27,7 @@ The core simulation runs from a Python MQTT script featuring five main functions
 - **ThingSpeak**: For channel-based field visualization.
 - **Make.com**: For automation workflows.
 
-> 📌 See `MQTT_Application.py` for the full implementation.
+> See `MQTT_Application.py` for the full implementation.
 
 **Figure 0**: *MQTT IoT simulator using ThingSpeak*
 
@@ -82,13 +82,13 @@ A secondary Python script (`Generate_avgTemps_JSON_file.py`) fetches recent temp
   - Imports and displays the temperature graph
   - Uses `Chart.js` for rendering
 
-> ⚠️ Due to browser security, a local server is required to enable `fetch()`.
+> ⚠Due to browser security, a local server is required to enable `fetch()`.
 
 **Figure 18**: Live graph of 24-point rolling average temperatures
 
 ---
 
-## ✅ Results
+## Results
 
 This project successfully demonstrates a multi-component IoT system:
 - Simulates environmental data via MQTT.
@@ -99,7 +99,7 @@ This project successfully demonstrates a multi-component IoT system:
 
 ---
 
-## 🔄 Future Improvements
+## Future Improvements
 
 - Consolidate Python scripts for efficiency.
 - Remove unnecessary steps like webhook.site (used for testing).
